@@ -1,35 +1,42 @@
-# Sampah-in
+# Sampah-in 🌿
 
-**Sampah-in** adalah sistem pengaduan sampah berbasis web untuk masyarakat dan admin, yang memungkinkan laporan sampah ditindaklanjuti dengan cepat, transparan, dan efektif.
+**Sampah-in** adalah sistem pengaduan sampah berbasis web untuk masyarakat dan admin.  
+Tujuannya adalah memudahkan masyarakat melaporkan sampah di lingkungannya, dan memastikan laporan ditindaklanjuti dengan cepat dan transparan.
 
 ---
 
-## Fitur
+## 🎯 Fitur Utama
 
 ### Untuk Masyarakat:
-- Mengirim pengaduan sampah dengan deskripsi, lokasi, dan lampiran foto.
+- Kirim pengaduan sampah dengan judul, deskripsi, lokasi, dan lampiran foto.
 - Pilihan anonim saat melaporkan.
-- Melihat status pengaduan secara transparan.
-- Informasi tentang visi dan misi layanan.
-- Kontak dan bantuan terkait pengaduan.
+- Pantau status pengaduan secara real-time.
+- Info visi & misi layanan.
+- Halaman kontak dan bantuan.
 
 ### Untuk Admin:
-- Login admin untuk mengelola laporan.
-- Melihat daftar pengaduan dan laporan pengaduan.
-- Mengelola data user.
+- Login aman untuk mengelola laporan.
+- Daftar pengaduan dan laporan pengaduan.
+- Kelola data user.
 - Statistik pengaduan.
-- Kontak & bantuan.
-- Profil admin dan pengaturan akun.
+- Profil admin & pengaturan akun.
 
 ---
 
-## Teknologi yang Digunakan
-- **PHP** sebagai bahasa backend
-- **MySQL** untuk database
-- **Bootstrap 3/4** untuk tampilan responsif
-- **jQuery** dan **AOS** untuk animasi dan interaksi
-- **XAMPP** sebagai local server
+## 💻 Teknologi
+- **PHP** untuk backend
+- **MySQL** sebagai database
+- **Bootstrap** untuk tampilan responsif
+- **jQuery** dan **AOS** untuk animasi
+- **XAMPP** sebagai server lokal
 
 ---
 
-## Struktur Folder
+## 🗂 Struktur Folder
+## ⚙ Cara Menjalankan
+
+1. Install **XAMPP** atau server lokal lainnya.
+2. Letakkan folder `sistemukk` di `htdocs` (untuk XAMPP).
+3. Buat database MySQL sesuai struktur database (`pengaduan`, `admin`, `user`).
+4. Sesuaikan `koneksi/koneksi.php` dengan username & password MySQL kamu.
+5. Buka browser, akses:  
