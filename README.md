@@ -32,7 +32,11 @@ Tujuannya adalah memudahkan masyarakat melaporkan sampah di lingkungannya, dan m
 
 ---
 
-## 🗂 Struktur Folder
+6. Login admin di:
+http://localhost/sistemukk/admin
+login user   
+http://localhost/sistemukk
+
 ## ⚙ Cara Menjalankan
 
 1. Install **XAMPP** atau server lokal lainnya.
